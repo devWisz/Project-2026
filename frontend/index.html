@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Chat Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo">SG</div>
+                <span class="brand-text">SocialGen</span>
+            </div>
+            <a href="button.html" class="chat-btn">
+                <i class="fas fa-comments"></i>
+                Chat Now
+            </a>
+        </header>
+
+        <main>
+            <div class="chat-card">
+                <div class="card-header">
+                    <h2>Join the Conversation</h2>
+                    <p>Enter a channel name to start connecting with others</p>
+                </div>
+                
+                <form action="/chat" method="get">
+                    <div class="input-group">
+                        <input type="text" name="room" placeholder="Enter channel name..." required />
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Join Room</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </main>
+
+        
