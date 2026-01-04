@@ -115,4 +115,37 @@
             margin-bottom: 2.5rem;
         }
 
+        .card-header h2 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .card-header p {
+            color: #4b5563;
+            font-size: 1.15rem;
+        }
+
+        /* Form Styles */
+        .chat-form {
+            margin-bottom: 2.5rem;
+        }
+
+        .input-container {
+            position: relative;
+            margin-bottom: 1.75rem;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 1.25rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6b7280;
+            font-size: 1.15rem;
+            z-index: 1;
+        }
+
       
